@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareBite - Food Wastage Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ShareBite</h1>
+        <p>Food Wastage Management Website</p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#donations">Find Food</a> |
+            <a href="#donate">Donate Food</a> |
+            <a href="#how">How It Works</a> |
+            <a href="#safety">Food Safety</a> |
+            <a href="#login">Login</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Share More, Waste Less</h2>
+
+            <p>
+                ShareBite connects people and organizations with surplus
+                food to NGOs, charities, volunteers and people in need.
+                Our aim is to reduce food waste by distributing safe surplus food.
+            </p>
+
+            <a href="#donations">Find Available Food</a>
+            <br><br>
+            <a href="#donate">Donate Surplus Food</a>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2>About ShareBite</h2>
+
+            <p>
+                This website helps restaurants, hotels, college hostels,
+                supermarkets and event organizers share excess food
+                with organizations that can distribute it to people in need.
+            </p>
+
+            <h3>Our Objectives</h3>
+
+            <ul>
+                <li>Reduce food wastage.</li>
+                <li>Connect food donors with NGOs and authorized volunteers.</li>
+                <li>Make food donation and collection easier.</li>
+                <li>Promote safe food handling and transportation.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="donations">
+            <h2>Available Food Donations</h2>
+
+            <p>Browse the following available food donations.</p>
+
+            <article>
+                <h3>Vegetable Rice Meals</h3>
+                <p>Food Type: Cooked Meal</p>
+                <p>Quantity: 20 meal portions</p>
+                <p>Pickup Location: Kavaraipettai</p>
+                <p>Collection: By 2:00 PM</p>
+                <button type="button">Request Food</button>
+            </article>
+
+            <hr>
+
+            <article>
+                <h3>Fresh Bananas</h3>
+                <p>Food Type: Fruits and Vegetables</p>
+                <p>Quantity: 8 kg</p>
+                <p>Pickup Location: Ponneri</p>
+                <p>Collection: Today</p>
+                <button type="button">Request Food</button>
+            </article>
+
+            <hr>
+
+            <article>
+                <h3>Bread and Buns</h3>
+                <p>Food Type: Bakery</p>
+                <p>Quantity: 30 pieces</p>
+                <p>Pickup Location: Gummidipoondi</p>
+                <p>Collection: By 5:00 PM</p>
+                <button type="button">Request Food</button>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="donate">
+            <h2>Donate Surplus Food</h2>
+
+            <p>Enter the details of the available surplus food.</p>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="donor">Donor Name:</label><br>
+                    <input type="text" id="donor" name="donor" required>
+                </p>
+
+                <p>
+                    <label for="food">Food Name:</label><br>
+                    <input type="text" id="food" name="food" required>
+                </p>
+
+                <p>
+                    <label for="type">Food Type:</label><br>
+
+                    <select id="type" name="type" required>
+                        <option value="">Select Food Type</option>
+                        <option>Cooked Meal</option>
+                        <option>Fruits and Vegetables</option>
+                        <option>Bakery</option>
+                        <option>Packaged Food</option>
+                        <option>Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="text" id="quantity" name="quantity" required>
+                </p>
+
+                <p>
+                    <label for="prepared">Preparation Date and Time:</label><br>
+                    <input type="datetime-local" id="prepared" name="prepared" required>
+                </p>
+
+                <p>
+                    <label for="deadline">Safe-Consumption Deadline:</label><br>
+                    <input type="datetime-local" id="deadline" name="deadline" required>
+                </p>
+
+                <p>
+                    <label for="location">Pickup Location:</label><br>
+                    <textarea id="location" name="location" required></textarea>
+                </p>
+
+                <p>
+                    <label for="phone">Contact Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Donation</button>
+                </p>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="how">
+            <h2>How It Works</h2>
+
+            <ol>
+                <li>
+                    <strong>Donor Registration:</strong>
+                    Donors register and provide their details.
+                </li>
+
+                <li>
+                    <strong>Food Listing:</strong>
+                    Donors add available surplus food information.
+                </li>
+
+                <li>
+                    <strong>Food Search:</strong>
+                    NGOs and receivers search for available donations.
+                </li>
+
+                <li>
+                    <strong>Food Request:</strong>
+                    Receivers request the food they need.
+                </li>
+
+                <li>
+                    <strong>Collection:</strong>
+                    Donors and receivers coordinate collection and delivery.
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="safety">
+            <h2>Food Safety Guidelines</h2>
+
+            <ul>
+                <li>Donate only food that is safe for consumption.</li>
+                <li>Maintain cleanliness during food preparation and packing.</li>
+                <li>Use suitable containers for storage and transportation.</li>
+                <li>Provide accurate preparation and safe-consumption details.</li>
+                <li>Arrange collection within the appropriate safe-consumption period.</li>
+            </ul>
+
+            <p>
+                Follow applicable Food Safety and Standards Authority
+                of India (FSSAI) guidelines.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="login">
+            <h2>Login / Registration</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p>
+
+                <p>
+                    <label for="role">User Role:</label><br>
+
+                    <select id="role" name="role">
+                        <option>Food Donor</option>
+                        <option>NGO / Receiver</option>
+                        <option>Volunteer</option>
+                        <option>Administrator</option>
+                    </select>
+                </p>
+
+                <p>
+                    <button type="submit">Register</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+
+        <p>ShareBite - Food Wastage Management Website</p>
+        <p>Email: sharebite@example.com</p>
+        <p>Project: ECE (VLSI &amp; DT) - First Year</p>
+        <p>&copy; 2026 ShareBite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
